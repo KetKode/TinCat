@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TinCat</title>
+  <link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <!-- Title -->
+  <section id="title" class="gradient-background">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand px-5" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50"
+            fill="currentColor" class="bi bi-fire" viewBox="0 0 20 20">
+            <path
+              d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16Zm0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15Z" />
+          </svg>TinCat</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Who are we?</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Read more
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Testimonials</a></li>
+                <li><a class="dropdown-item" href="#">Pricing</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Contact us</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <button class="btn"></class><i class="fa-solid fa-paw fa-4x"></i></button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <img class="card-img-top mb-5 mb-md-0" src="./images/iphone-cat-pic.png" alt="iphone-pic">
+        </div>
+
+        <div class="col-lg-6">
+          <div class="mb-4 mt-5 d-flex flex-column align-items-center">
+            <h1 class="display-5 fw-bold text-body-emphasis mb-5 mt-5">TinCat</h1>
+            <p class="lead mb-4 d-flex text-center mb-5 ">Let your cat find awesome cat pals. Pawsome pals.</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+              <button type="button" class="btn btn-light btn-lg px-4 gap-3"><svg xmlns="http://www.w3.org/2000/svg"
+                  width="16" height="16" fill="currentColor" class="bi bi-apple mb-1" viewBox="0 0 16 16">
+                  <path
+                    d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z" />
+                  <path
+                    d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z" />
+                </svg> Download</button>
+              <button type="button" class="btn btn-outline-dark btn-lg px-4"><svg xmlns="http://www.w3.org/2000/svg"
+                  width="16" height="16" fill="currentColor" class="bi bi-google-play mb-1" viewBox="0 0 16 16">
+                  <path
+                    d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96 2.694-1.586Zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055l7.294-4.295ZM1 13.396V2.603L6.846 8 1 13.396ZM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27Z" />
+                </svg> Download</button>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+
+
+    <div class="mt-5"></div>
+
+  </section>
+  <!-- Features -->
+  <section id="features">
+    <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+      <h1 class="display-4 fw-normal text-body-emphasis">Why us?</h1>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-sm-10 col-md-8 col-lg-6">
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 gx-5">
+
+              <div class="feature col text-center px-1">
+                <div class="feature-icon align-items-center justify-content-center fs-2 mb-3">
+                  <img src="./images/animal.png" alt="cat" height="70">
+                </div>
+                <h3 class="fs-2 text-body-emphasis">Easy to use.</h3>
+                <p>So easy to use even if you have paws.</p>
+              </div>
+
+              <div class="feature col text-center px-1">
+                <div class="feature-icon align-items-center justify-content-center fs-2 mb-3">
+                  <img src="./images/black-cat.png" alt="black cat" height="70">
+                </div>
+                <h3 class="fs-2 text-body-emphasis">Guaranteed to work.</h3>
+                <p>Find the pal for your cat or your money back.</p>
+              </div>
+
+              <div class="feature col text-center px-1">
+                <div class="feature-icon align-items-center justify-content-center fs-2 mb-3">
+                  <img src="./images/cat.png" alt="cat" height="70">
+                </div>
+                <h3 class="fs-2 text-body-emphasis">Elite clientele.</h3>
+                <p>We have all the cats, the greatest cats.</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <div class="mt-5"></div>
+
+
+  <!-- Testimonial -->
+  <section id="testimonial">
+    <section class="p-4 text-center w-100">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-10 col-xl-8 text-center">
+          <h1 class="mb-4">Here is what our clients think of TinCat:</h3>
+            <p class="mb-4 pb-2 mb-md-5 pb-md-0">
+
+            </p>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-6 mb-4 mb-md-0">
+            <div class="d-flex justify-content-center mb-4">
+              <img src="./images/cats-get-along.jpg" class="rounded-circle shadow-1-strong" width="150" height="150">
+            </div>
+            <p class="lead my-3">
+              "I was feeling lonely but thanks to TinCat I found a good friend."
+            </p>
+            <p class="font-italic font-weight-normal mb-0"><em>- Buns and Penny</em> </p>
+          </div>
+          <div class="col-md-6 mb-0">
+            <div class="d-flex justify-content-center mb-4">
+              <img src="./images/domestic-cat-lies-in-a-basket-with-a-knitted-royalty-free-image-1592337336.jpg"
+                class="rounded-circle shadow-1-strong" width="150" height="150">
+            </div>
+            <p class="lead my-3">
+              "I have dates every Friday, I'm pretty popular!"
+            </p>
+            <p class="font-italic font-weight-normal mb-0"><em>- Sammy</em></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="mt-5"></div>
+
+  </section>
+  <!-- Pricing -->
+  <section id="pricing">
+
+    <div class="container py-3">
+
+      <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+        <h1 class="display-4 fw-normal text-body-emphasis">Pricing</h1>
+        <p class="fs-5">Simple and affordable price plans for you and your cat.</p>
+      </div>
+      </header>
+
+      <main>
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3 gradient-background">
+                <h4 class="my-0 fw-normal">Kitty Cat</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$0<small class="text-body-secondary fw-light">/mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>10 matches daily</li>
+                  <li>10 Messages Per Day</li>
+                  <li>Unlimited app usage</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-success button-color">Sign up for free</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3 gradient-background">
+                <h4 class="my-0 fw-normal">Cool Tabby</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$15<small class="text-body-secondary fw-light">/mo</small>
+                </h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>50 matches daily</li>
+                  <li>Unlimited Messages Per Day</li>
+                  <li>Unlimited app usage</li>
+                  <li>Personalised filters</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-success button-color">Get started</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3 text-bg-primary gradient-background">
+                <h4 class="my-0 fw-normal">Big Chonk</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$29<small class="text-body-secondary fw-light">/mo</small>
+                </h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Unlimited matches</li>
+                  <li>Unlimited Messages Per Day</li>
+                  <li>Unlimited app usage</li>
+                  <li>Personalised filters</li>
+                  <li>VIP badge</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-success button-color">Get started</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mt-5"></div>
+        <div class="container-fluid p-3 pb-md-4 text-center mx-auto">
+          <form>
+            <i class="fa-solid fa-paw fa-4x"></i>
+            <h3>Subscribe to our newsletter</h3>
+            <p>Monthly digest of what's new and exciting from us.</p>
+            <div class="mt-5"></div>
+            <div class="row justify-content-center mt-5 mb-5">
+              <div class="col-sm-8 col-md-6 col-lg-5 mb-3">
+                <input id="newsletter1" type="text" class="form-control form-control-lg"
+                  style="font-size: 18px; text-align: center;" placeholder="Email address">
+              </div>
+              <div class="col-sm-4 col-md-3 col-lg-2 mb-3">
+                <button type="button" class="btn btn-lg btn-success w-100">Subscribe</button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+
+    </div>
+    <div class="mt-5"></div>
+
+
+
+    <footer>
+      <ul class="nav justify-content-center border-bottom">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Why us?</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Testimonials</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Subscribe</a></li>
+      </ul>
+      <p class="text-center text-body-secondary mt-5">TinCat © 2023 by <a href="https://github.com/KetKode">Anastasia
+          V.</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/259c88e539.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
